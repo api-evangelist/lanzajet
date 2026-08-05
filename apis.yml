@@ -1,17 +1,44 @@
 aid: lanzajet
 name: LanzaJet
-description: 'LanzaJet is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'LanzaJet is a sustainable fuels technology company, headquartered at
+  520 Lake Cook Road, Deerfield, Illinois, that produces and licenses sustainable aviation
+  fuel (SAF) and renewable diesel. Founded in 2020 as a spin-out of LanzaTech with
+  Suncor and Mitsui, and later backed by Shell, British Airways, Southwest Airlines,
+  Microsoft''s Climate Innovation Fund, Breakthrough Energy, Groupe ADP, MUFG and All
+  Nippon Airways, the company commercializes a patented Alcohol-to-Jet (ATJ) process
+  that converts ethanol into synthetic paraffinic kerosene through a continuous catalytic
+  reaction, reaching roughly 90% hydrocarbon selectivity to jet fuel and converting
+  about 98% of the ethanol carbon into salable product. The ATJ pathway was approved
+  by ASTM International in 2018. LanzaJet Freedom Pines Fuels in Soperton, Georgia
+  — opened in 2024 — is the world''s first commercial ethanol-to-jet SAF plant, producing
+  roughly 10 million gallons of SAF and renewable diesel a year, and the company is
+  developing Project Speedbird in the UK alongside a CirculAir joint solution with
+  LanzaTech that widens the feedstock base to municipal solid waste, agricultural residues
+  and industrial off-gases via gas fermentation. LanzaJet sells technology licenses,
+  project development and engineering services and fuel offtake rather than software:
+  as of this profiling pass it publishes no public developer portal, no API reference,
+  no SDKs, and no machine-readable API contract of any kind, and every /.well-known/
+  discovery probe against its web host returned 404.'
 url: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/apis.yml
+image: https://lanza-jet.transforms.svdcdn.com/production/general/meta.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1698097311&s=0ed8f3d6f3c4af13d5bc51f31185aa9e
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Energy
+- Sustainable Aviation Fuel
+- Renewable Fuels
+- Aviation
+- Climate Tech
+- Sustainability
+- Biofuels
+- Carbon Recycling
+- Chemicals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +46,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lanzajet-domain-security.yml
 - type: Website
+  url: https://www.lanzajet.com/
+- type: About
+  url: https://www.lanzajet.com/about
+- type: Technology
+  url: https://www.lanzajet.com/technology
+- type: Products
+  url: https://www.lanzajet.com/sustainable-fuels
+- type: Projects
+  url: https://www.lanzajet.com/projects-services
+- type: News
+  url: https://www.lanzajet.com/news-insights
+- type: Careers
+  url: https://www.lanzajet.com/careers
+- type: Contact
+  url: https://www.lanzajet.com/contact
+- type: TermsOfService
+  url: https://www.lanzajet.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.lanzajet.com/privacy-policy
+- type: Patents
+  url: https://www.lanzajet.com/patents
+- type: CodeOfConduct
+  url: https://www.lanzajet.com/cobc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lanzajet
+- type: Twitter
+  url: https://x.com/LanzaJet
+- type: SecondaryMarket
   url: https://forgeglobal.com/lanzajet_stock/
+- type: WellKnownProbe
+  url: well-known/lanzajet-well-known.yml
+- type: LLMsTxt
+  url: llms/lanzajet-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

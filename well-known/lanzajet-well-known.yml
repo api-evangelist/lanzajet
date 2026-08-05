@@ -1,0 +1,79 @@
+generated: '2026-08-04'
+method: probed
+source: live HTTP probe of the LanzaJet web host (https://www.lanzajet.com/)
+note: >-
+  No /.well-known/ discovery documents are published on the LanzaJet domain. Every
+  discovery probe returned 404, including the A2A agent card at both the current
+  (/.well-known/agent-card.json) and pre-0.3 (/.well-known/agent.json) paths, and
+  no llms.txt is served. Only robots.txt and sitemap.xml exist. This is an honest
+  negative result, not a gap in probing: LanzaJet is a sustainable-fuels technology
+  and project-development company with no public developer surface. No api.*,
+  developer.*, docs.*, portal.* or data.* subdomain resolves under lanzajet.com,
+  so there is no separate API host to probe. Because nothing was found, NO
+  WellKnown / SecurityTxt / AgentCard pointer is wired into apis.yml — this file is
+  recorded under the non-scoring type WellKnownProbe as probe evidence only.
+hosts:
+- host: https://www.lanzajet.com
+  note: https://lanzajet.com/ 301-redirects here
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/mcp.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /openapi.yaml
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /api-docs
+    status: 404
+  - path: /docs
+    status: 404
+  - path: /redoc
+    status: 404
+  - path: /graphql
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /robots.txt
+    status: 200
+  - path: /sitemap.xml
+    status: 200
+subdomains_probed:
+- host: api.lanzajet.com
+  dns: NXDOMAIN
+- host: developer.lanzajet.com
+  dns: NXDOMAIN
+- host: docs.lanzajet.com
+  dns: NXDOMAIN
+- host: portal.lanzajet.com
+  dns: NXDOMAIN
+- host: data.lanzajet.com
+  dns: NXDOMAIN
+registries_probed:
+- registry: GitHub
+  query: github.com/lanzajet (org), code search "lanzajet"
+  result: no organization (404), no first-party repositories
+- registry: npm
+  query: lanzajet
+  result: 0 packages
+- registry: PyPI
+  query: lanzajet
+  result: 404
