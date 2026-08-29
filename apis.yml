@@ -20,6 +20,17 @@ description: 'LanzaJet is a sustainable fuels technology company, headquartered 
   no SDKs, and no machine-readable API contract of any kind, and every /.well-known/
   discovery probe against its web host returned 404.'
 url: https://raw.githubusercontent.com/api-evangelist/lanzajet/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://lanza-jet.transforms.svdcdn.com/production/general/meta.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1698097311&s=0ed8f3d6f3c4af13d5bc51f31185aa9e
 x-type: company
 x-source: harvest:secondary-market
