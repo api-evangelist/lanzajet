@@ -31,6 +31,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://lanza-jet.transforms.svdcdn.com/production/general/meta.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1698097311&s=0ed8f3d6f3c4af13d5bc51f31185aa9e
 x-type: company
 x-source: harvest:secondary-market
