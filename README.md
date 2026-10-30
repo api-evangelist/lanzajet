@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LanzaJet is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/lanzajet_stock/
+LanzaJet is a sustainable fuels technology company, headquartered at 520 Lake Cook Road, Deerfield, Illinois, that produces and licenses sustainable aviation fuel (SAF) and renewable diesel. Founded in 2020 as a spin-out of LanzaTech with Suncor and Mitsui, and later backed by Shell, British Airways, Southwest Airlines, Microsoft's Climate Innovation Fund, Breakthrough Energy, Groupe ADP, MUFG and All Nippon Airways, the company commercializes a patented Alcohol-to-Jet (ATJ) process that converts ethanol into synthetic paraffinic kerosene through a continuous catalytic reaction, reaching roughly 90% hydrocarbon selectivity to jet fuel and converting about 98% of the ethanol carbon into salable product. The ATJ pathway was approved by ASTM International in 2018. LanzaJet Freedom Pines Fuels in Soperton, Georgia — opened in 2024 — is the world's first commercial ethanol-to-jet SAF plant, producing roughly 10 million gallons of SAF and renewable diesel a year, and the company is developing Project Speedbird in the UK alongside a CirculAir joint solution with LanzaTech that widens the feedstock base to municipal solid waste, agricultural residues and industrial off-gases via gas fermentation. LanzaJet sells technology licenses, project development and engineering services and fuel offtake rather than software: as of this profiling pass it publishes no public developer portal, no API reference, no SDKs, and no machine-readable API contract of any kind, and every /.well-known/ discovery probe against its web host returned 404.
+
+**Areas:** Company · Energy · Sustainable Aviation Fuel · Renewable Fuels · Aviation · Climate Tech · Sustainability · Biofuels · Carbon Recycling · Chemicals
+
+## LanzaJet on APIs.io
+
+Everything profiled for LanzaJet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lanzajet/](https://apis.io/providers/lanzajet/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lanzajet Domain Security](https://apis.io/security/lanzajet/lanzajet-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lanzajet.com/)
+- [Terms of service](https://www.lanzajet.com/terms-of-use)
+- [Privacy policy](https://www.lanzajet.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lanzajet/](https://apis.io/providers/lanzajet/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LanzaJet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lanzajet/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
